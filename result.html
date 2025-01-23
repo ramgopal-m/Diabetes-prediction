@@ -1,0 +1,41 @@
+<html></html>
+    <head>
+        <title>Diabetes Predictor</title>
+    </head>
+    <style>
+        .border{
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #57f40e;
+    border-radius: 5px;
+    align-items: center;
+    }
+         body{
+            font-family Arial, Helevetica, sansserif;
+        }
+        input[type=text], select{
+            width:100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display:inline-block;
+            border:1px solid #ccc;
+            border-radius:4px;
+            box-sizing:border-box;
+        } 
+    </style>
+    <body>
+        <div class="border">
+            <h2><a href='/'><p style="text-align:center;">Diabetes Prediction</p></a></h2>
+            <h2>Results:</h2>
+            {% if prediction ==1%}
+            <h2 style="color:red;">Chances of having Diabetes is more<br>Please consult Doctor!!..</h2>
+            <p style="text-align:center;"></p>
+            {% elif prediction == 0%}
+            <h2 style="color:blue;">No Worries!!!<br>You don't have Diabetes.</h2>
+
+            {% endif %}
+        </div>
+        
+    </body>
+</html>
