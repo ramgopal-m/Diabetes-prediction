@@ -1,5 +1,5 @@
 
-# 🩺 Diabetes Prediction App
+# 🩺 Diabetes Prediction 
 
 This project integrates **Machine Learning** and **Web Development** to provide a user-friendly interface for diabetes prediction.  
 The application is built with **Flask** (for the web interface) and a **KNN model** (for prediction).  
